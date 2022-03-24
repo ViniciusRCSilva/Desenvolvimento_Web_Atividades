@@ -1,0 +1,117 @@
+:root{
+    --white: #fff;
+    --black: #000;
+    --blue: #00f;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
+body{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'Calibri';
+    display: flex;
+    justify-content: space-around;
+}
+
+.recreate{
+    display: flex;
+    flex-direction: column;
+}
+
+.recreate img{
+    width: 700px;
+    height: 810px;
+}
+
+.all_content{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0 0 0;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: var(--black);
+    color: var(--white);
+}
+
+.header p{
+    margin: 20px 0 -10px 0;
+}
+
+.division{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    border: 1px solid var(--black);
+    padding: 10px 10px 10px 10px;
+}
+
+.list a{
+    color: var(--blue);
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    border: 1px solid var(--black);
+    padding: 10px 10px 10px 10px;
+}
+
+.images{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+.image{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image b{
+    font-family: 'Righteous', 'Calibri', sans-serif;
+}
+
+.minor_shield{
+    width: 150px;
+}
+
+.larger_shield{
+    width: 200px;
+}
+
+.description p{
+    font-size: large;
+    text-align: justify;
+}
+
+.video_area{
+    display: flex;
+    flex-direction: column;
+}
+
+.video_area b{
+    font-size: large;
+}
+
+.video_area a img{
+    border: 1px solid var(--black);
+    width: 300px;
+    margin: 10px 0 0 50px;
+}
